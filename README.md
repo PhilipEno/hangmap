@@ -8,6 +8,8 @@ The program consists of:
 * `aat_terms.py` (helper program that is called from hangmap.py, and returns an AAT term and URI)
 * `aat_IDs.csv` (a list of AAT IDs, that are used to query the AAT API)
 
+Run program: `python hangmap.py`
+
 ## Requirements
 * An internet connection is required in order to retrieve words from the Art & Architecture Thesaurus (AAT).
 * The `requests` module is used to collect data from the AAT. The module is not part the Python standard library, and has to be installed prior to running hangmap.py. Can als be found in requirements.txt.
